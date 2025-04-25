@@ -2,13 +2,13 @@
 一个基于React与TypeScript开发的现代化聊天应用，能够分析用户情感并相应地调整回复和界面风格。
 
 项目截图：
-![截图1](./accets/p1.png)
-![截图2](./accets/p2.png)
-![截图3](./accets/p3.png)
-![截图4](./accets/p4.png)
-![截图5](./accets/p5.png)
-![截图6](./accets/p6.png)
-![截图7](./accets/p7.png)
+![p1](./accects/p1.png)
+![p2](./accects/p2.png)
+![p3](./accects/p3.png)
+![p4](./accects/p4.png)
+![p5](./accects/p5.png)
+![p6](./accects/p6.png)
+![p7](./accects/p7.png)
 
 
 ## 🌟 特色功能
