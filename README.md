@@ -2,8 +2,6 @@
 
 一个基于React与TypeScript开发的现代化聊天应用，能够分析用户情感并相应地调整回复和界面风格。
 
-![image-20250425145823228](C:\Users\35092\AppData\Roaming\Typora\typora-user-images\image-20250425145823228.png)
-
 ## 🌟 特色功能
 
 - **情感分析**：AI能够分析用户消息中的情感倾向，并据此调整回复语气
