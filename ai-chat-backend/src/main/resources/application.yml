@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ai_chat?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:your-api-key}
+      base-url: ${OPENAI_BASE_URL:your-base-url}
+      chat:
+        options:
+          model: your-ai-model
+          temperature: 0.7
+  data:
+    redis:
+      host: localhost
+      database: 0
+      port: 6379
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
+server:
+  port: 7777
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: ai.aichatbackend.entity
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    ai.aichatbackend: debug
+    org.springframework.ai: info
+    org.springframework.web: debug
